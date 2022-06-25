@@ -1,0 +1,178 @@
+{
+  "version": "1.8.2 2110 version",
+  "globalBitSize": 1,
+  "clockSpeed": 1,
+  "circuits": [
+    {
+      "name": "transistors",
+      "components": [
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.TransistorPeer",
+          "x": 32,
+          "y": 25,
+          "properties": {
+            "Type": "N-Type",
+            "Gate Location": "Left/Top",
+            "Label location": "NORTH",
+            "Label": "",
+            "Direction": "EAST"
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.TransistorPeer",
+          "x": 44,
+          "y": 25,
+          "properties": {
+            "Type": "N-Type",
+            "Gate Location": "Left/Top",
+            "Label location": "NORTH",
+            "Label": "",
+            "Direction": "EAST"
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.TransistorPeer",
+          "x": 32,
+          "y": 7,
+          "properties": {
+            "Type": "P-Type",
+            "Gate Location": "Left/Top",
+            "Label location": "NORTH",
+            "Label": "",
+            "Direction": "EAST"
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.TransistorPeer",
+          "x": 44,
+          "y": 7,
+          "properties": {
+            "Type": "P-Type",
+            "Gate Location": "Left/Top",
+            "Label location": "NORTH",
+            "Label": "",
+            "Direction": "EAST"
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.PinPeer",
+          "x": 14,
+          "y": 6,
+          "properties": {
+            "Label location": "WEST",
+            "Label": "a",
+            "Is input?": "Yes",
+            "Direction": "EAST",
+            "Bitsize": "1"
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.PinPeer",
+          "x": 14,
+          "y": 26,
+          "properties": {
+            "Label location": "WEST",
+            "Label": "b",
+            "Is input?": "Yes",
+            "Direction": "EAST",
+            "Bitsize": "1"
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.PinPeer",
+          "x": 67,
+          "y": 15,
+          "properties": {
+            "Label location": "EAST",
+            "Label": "out",
+            "Is input?": "No",
+            "Direction": "WEST",
+            "Bitsize": "1"
+          }
+        }
+      ],
+      "wires": []
+    },
+    {
+      "name": "deMorgan",
+      "components": [
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.PinPeer",
+          "x": 15,
+          "y": 8,
+          "properties": {
+            "Label location": "WEST",
+            "Label": "a",
+            "Is input?": "Yes",
+            "Direction": "EAST",
+            "Bitsize": "1"
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.PinPeer",
+          "x": 15,
+          "y": 22,
+          "properties": {
+            "Label location": "WEST",
+            "Label": "b",
+            "Is input?": "Yes",
+            "Direction": "EAST",
+            "Bitsize": "1"
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.PinPeer",
+          "x": 15,
+          "y": 34,
+          "properties": {
+            "Label location": "WEST",
+            "Label": "c",
+            "Is input?": "Yes",
+            "Direction": "EAST",
+            "Bitsize": "1"
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.PinPeer",
+          "x": 82,
+          "y": 19,
+          "properties": {
+            "Label location": "EAST",
+            "Label": "out",
+            "Is input?": "No",
+            "Direction": "WEST",
+            "Bitsize": "1"
+          }
+        }
+      ],
+      "wires": []
+    }
+  ],
+  "revisionSignatures": [
+    "CWE0NmUzMmM4NzJiZTRmNjBmMmM5NzZiMGE5OGQyMGUyZDNlYTExZjZjMjljMjE3NDM3Y2ZjN2NhZGI1MmE0ZWUJMTU2NjQ0NDIzNTYyMAliNTQzZDY0NTE1Y2U1YzE4M2JhNjU4MmRmNmJiOWEzMTQ2MWYyNzNmOWFiZGQ4NzZkYjVmYWYwNGZhODY1ZWYx",
+    "YTQ2ZTMyYzg3MmJlNGY2MGYyYzk3NmIwYTk4ZDIwZTJkM2VhMTFmNmMyOWMyMTc0MzdjZmM3Y2FkYjUyYTRlZQk4NWFhZmE5N2ZmOWRjZDk4NjdhMzgyMmM3Y2FkNzI4MzcyY2EyOTk3MGYwMWFmZjFhZGMxYzMzZTg2OThjZTY2CTE1NjY0NDQyNTk2MzMJMGY4MDk1YzE4YjkzNWQzZjU3MmEyZDQ3NDE5YTc0NjQwNDY3MzMxZTUxMTdkYmRmNjFmZTNkYjlmN2YyZDc4Yg\u003d\u003d",
+    "ODVhYWZhOTdmZjlkY2Q5ODY3YTM4MjJjN2NhZDcyODM3MmNhMjk5NzBmMDFhZmYxYWRjMWMzM2U4Njk4Y2U2Ngk0NDYzNjdhNmZiYThkYTgzYTUxMjU3NzJjOTdiNmNlN2M0OGMyMGM0ZTA0MmJmNmJhMmZhZWFjZjIxOWM4NGYwCTE1NjY1ODEyOTY4NzkJY2EwZTQ3MGZiNzNhMTUyNDI4N2YyNjNjMzA1ZWY2Mzg5YmYyYTQyOWQ3ZmIxMzgxNmYxNDhmNGY3OTA2YjM5YQ\u003d\u003d",
+    "NDQ2MzY3YTZmYmE4ZGE4M2E1MTI1NzcyYzk3YjZjZTdjNDhjMjBjNGUwNDJiZjZiYTJmYWVhY2YyMTljODRmMAkzMTNmMjQzMGE5YTE3MTA5OGJhZDNhNjI2MjNiNjJhZjUwNDk3OWE4ODRmN2M0MDg3M2JkNDhiNGRjNjM0YTUzCTE1NjY1ODE5NTYwNjgJMGY4MDk1YzE4YjkzNWQzZjU3MmEyZDQ3NDE5YTc0NjQwNDY3MzMxZTUxMTdkYmRmNjFmZTNkYjlmN2YyZDc4Yg\u003d\u003d",
+    "MzEzZjI0MzBhOWExNzEwOThiYWQzYTYyNjIzYjYyYWY1MDQ5NzlhODg0ZjdjNDA4NzNiZDQ4YjRkYzYzNGE1MwkzY2ZhODRlMDMzNzU3Yjk0MDY0Y2M3MzhmMTQ4OTZjMWE1NzJmODRmZGJiZjQ4MjM3ZWJiZWViYTczNGViM2Y5CTE1NjY1ODE5NjMyNjUJMGY4MDk1YzE4YjkzNWQzZjU3MmEyZDQ3NDE5YTc0NjQwNDY3MzMxZTUxMTdkYmRmNjFmZTNkYjlmN2YyZDc4Yg\u003d\u003d",
+    "M2NmYTg0ZTAzMzc1N2I5NDA2NGNjNzM4ZjE0ODk2YzFhNTcyZjg0ZmRiYmY0ODIzN2ViYmVlYmE3MzRlYjNmOQk0MjhlNjU5NzE2NjUzMGZkM2Y0MjI2ZjcyYTBmNDkzYTM3NzM3MjkxYTdjNWM0ZmM5OWM5MjJlOGE1ZmE5OTVjCTE1NzkzNjc4MDQ4NzQJYjU0M2Q2NDUxNWNlNWMxODNiYTY1ODJkZjZiYjlhMzE0NjFmMjczZjlhYmRkODc2ZGI1ZmFmMDRmYTg2NWVmMQ\u003d\u003d",
+    "NDI4ZTY1OTcxNjY1MzBmZDNmNDIyNmY3MmEwZjQ5M2EzNzczNzI5MWE3YzVjNGZjOTljOTIyZThhNWZhOTk1YwkxOGNiNzMwNDZlNTA4NjlmMjIxNzc4ZTIzMjE5MTJhYzFiYjhkNGY4NzMwZDQ0N2QyY2MxNzk1ZjBhNGQxZmFhCTE1NzkzNjgzNjY0MzUJNGUxMDQ4OTJjMzY3ZmFkYWVmYmM3NzQ3OTI1NzViODU4NTUyYzdiMjcwZDFjZDQ2MTEzNGI3OTQwNDZjMTAzNg\u003d\u003d",
+    "MThjYjczMDQ2ZTUwODY5ZjIyMTc3OGUyMzIxOTEyYWMxYmI4ZDRmODczMGQ0NDdkMmNjMTc5NWYwYTRkMWZhYQlhODRmNjkxNGQ4NjA1M2ZmMGVhNWYwYzc5MjQ5ZDQ4ZjM5YzYyNzZmOWY5N2M1YWUzZDM0NjA1OTIyNzdhOTZiCTE1NzkzNjg0ODI0ODgJZDlmYzI3NTY2ZDkxMzIxODZiNTMzYzM5YWJiYTNkYzcyZDI2NGUwOWUxZDgxOWRhNDk4YzU2MGI3MzQyMDkzYQ\u003d\u003d",
+    "YTg0ZjY5MTRkODYwNTNmZjBlYTVmMGM3OTI0OWQ0OGYzOWM2Mjc2ZjlmOTdjNWFlM2QzNDYwNTkyMjc3YTk2YgkwYzQ3OGYyMzk3MTA2N2YwNWQ2OWQ5OTEzNTI1ZTNkNjcwNTI4ZTdmNjM2NTE4MjA0NWE0MGQxOTRjZmQ0M2IzCTE1NzkzNjg1MDg5MTgJZDlmYzI3NTY2ZDkxMzIxODZiNTMzYzM5YWJiYTNkYzcyZDI2NGUwOWUxZDgxOWRhNDk4YzU2MGI3MzQyMDkzYQ\u003d\u003d",
+    "MGM0NzhmMjM5NzEwNjdmMDVkNjlkOTkxMzUyNWUzZDY3MDUyOGU3ZjYzNjUxODIwNDVhNDBkMTk0Y2ZkNDNiMwkyOGQwY2QwNGU2NTQxMzk1ZDgyMzIwNjZiN2ZiODkwN2FhYjc1MjMwN2U0ODM4MjM1MjAyOWFmYmYzZWE3MjdiCTE1NzkzNzIwOTUzMjkJYjg2MjY3NDQ2NTI5ZThlOTkwOWE3ZmExZTQyMjZiYmMyNTdlNGRhZjdkNjE5ODc2NDYwMmNiZTk3MDNhNDY5NQ\u003d\u003d",
+    "MjhkMGNkMDRlNjU0MTM5NWQ4MjMyMDY2YjdmYjg5MDdhYWI3NTIzMDdlNDgzODIzNTIwMjlhZmJmM2VhNzI3YglkNDczMGM0MThiMjIzNzg0ODFlNTkxYTBhMGVkZjE5NGM3Y2MyYjBkOWJiMWNjNDhjM2ZhM2JjZWIzYjFlN2NjCTE1NzkzNzIxMDkzNDgJYjg2MjY3NDQ2NTI5ZThlOTkwOWE3ZmExZTQyMjZiYmMyNTdlNGRhZjdkNjE5ODc2NDYwMmNiZTk3MDNhNDY5NQ\u003d\u003d",
+    "ZDQ3MzBjNDE4YjIyMzc4NDgxZTU5MWEwYTBlZGYxOTRjN2NjMmIwZDliYjFjYzQ4YzNmYTNiY2ViM2IxZTdjYwkzM2YzMWMwNGJmY2ExMDA0NjdjMTQ5ZTliOWRiZTYzN2U4MDVhMzY2MTVkOGE5NjBiODc5YzkyOTQ0MWJlZDY5CTE1NzkzNzUxMzQ2NjYJYWIyNTFlN2RlYjkwOTFjNThiNzI0MzA2YjQ0ZjMxZmI0MDhhNzRmYzU0NzY3ODA3YmVjZDRjOWYzNzViZDhkNQ\u003d\u003d",
+    "MzNmMzFjMDRiZmNhMTAwNDY3YzE0OWU5YjlkYmU2MzdlODA1YTM2NjE1ZDhhOTYwYjg3OWM5Mjk0NDFiZWQ2OQk5ZTY2NjU2NWFkMjUxNjg5NDI0Yzg0ODI0MGY1YzFiZGJkNDFmMDJiYTBiOGE3NTdjOGY4MzVkYWMwYjAwNjY2CTE1NzkzNzUxNjQ0NzYJODgyYzQ4NGQ0N2JhNDJhMTk3ZGVhNjU2MTAxZDlhZmI1ODA5MjRjNTJkMWY2MGU0YWE2ZWRkNzVmNWQyOWQ2MA\u003d\u003d",
+    "OWU2NjY1NjVhZDI1MTY4OTQyNGM4NDgyNDBmNWMxYmRiZDQxZjAyYmEwYjhhNzU3YzhmODM1ZGFjMGIwMDY2NgllMjU1NDBiNDFkNGNhOGFjZmQ3ZmUwMzc3Zjg5MDBlOGI3NjUxNDE0MmJlNzZkODY5YTg5ODkxZWEwMDRlZjM0CTE1NzkzNzUxNzU2MjYJYzM3NTM2MTA3ZDUyNWM5ODVmOGIwOTUxMWYzMzNlNzYyMmM0ZTQyNjk2MDQ0MGIyN2I2YTNmZTE0MTVlY2UzYg\u003d\u003d",
+    "ZTI1NTQwYjQxZDRjYThhY2ZkN2ZlMDM3N2Y4OTAwZThiNzY1MTQxNDJiZTc2ZDg2OWE4OTg5MWVhMDA0ZWYzNAkzOWJmZjgzMGNiMDA4YWE5YWFjYmY1ZjViYTgyYWIzNGZlZThiOTBjZGZkYWY0Y2EzMjIwOGQxYTE1NzE5M2M5CTE1NzkzNzUxOTMzNTMJNDlmYTg1MzFiMTBkNGY1NzA2NjViM2NjNzJlNmFhNTY5MjVkMWRmOTRkNWM4ZjYxM2QzMDM3ZWUwOGE3MzRmNg\u003d\u003d",
+    "MzliZmY4MzBjYjAwOGFhOWFhY2JmNWY1YmE4MmFiMzRmZWU4YjkwY2RmZGFmNGNhMzIyMDhkMWExNTcxOTNjOQlhNjQ4NTVhMDgxYzhlYjUxMjNmMGZjNzNlZmY1NmI4YTAzMGZlMGMyOWY2NjZjZWJkZTk4OWU2Y2Y4NzJiODQ2CTE1NzkzNzUxOTQ5MTAJNDlmYTg1MzFiMTBkNGY1NzA2NjViM2NjNzJlNmFhNTY5MjVkMWRmOTRkNWM4ZjYxM2QzMDM3ZWUwOGE3MzRmNg\u003d\u003d",
+    "YTY0ODU1YTA4MWM4ZWI1MTIzZjBmYzczZWZmNTZiOGEwMzBmZTBjMjlmNjY2Y2ViZGU5ODllNmNmODcyYjg0Ngk5M2Y4NDA5ZmExZDE0YjMzY2E5NDg1ZWYxZWZkMDIyN2JjZmJiNDZlZjMwM2UzMmViYzVlMDQ4ZjkzOTA3Yjk1CTE1NzkzNzUyMjc2NTEJYzM3NTM2MTA3ZDUyNWM5ODVmOGIwOTUxMWYzMzNlNzYyMmM0ZTQyNjk2MDQ0MGIyN2I2YTNmZTE0MTVlY2UzYg\u003d\u003d",
+    "OTNmODQwOWZhMWQxNGIzM2NhOTQ4NWVmMWVmZDAyMjdiY2ZiYjQ2ZWYzMDNlMzJlYmM1ZTA0OGY5MzkwN2I5NQk5NzBjMjMyNWZiMGJkZGYxNDQ0ZGUxMzdlZmUyMzBlMTJiZjhlYjRmNTlmNDNhZTU2NDQ2YTVmODI0OGUyNDQyCTE1NzkzNzUyMjgxMzMJYzM3NTM2MTA3ZDUyNWM5ODVmOGIwOTUxMWYzMzNlNzYyMmM0ZTQyNjk2MDQ0MGIyN2I2YTNmZTE0MTVlY2UzYg\u003d\u003d",
+    "OTcwYzIzMjVmYjBiZGRmMTQ0NGRlMTM3ZWZlMjMwZTEyYmY4ZWI0ZjU5ZjQzYWU1NjQ0NmE1ZjgyNDhlMjQ0MgliM2YyYzI4NWExZGI2ZTcwNDgyNjk2OGVmM2Q1N2U5YzcxMDE4OTAwYWMxYzIzODQ0YTI1YWY1ZDNlYjE0NTBmCTE1NzkzNzUyMjgzNTcJYzM3NTM2MTA3ZDUyNWM5ODVmOGIwOTUxMWYzMzNlNzYyMmM0ZTQyNjk2MDQ0MGIyN2I2YTNmZTE0MTVlY2UzYg\u003d\u003d",
+    "YjNmMmMyODVhMWRiNmU3MDQ4MjY5NjhlZjNkNTdlOWM3MTAxODkwMGFjMWMyMzg0NGEyNWFmNWQzZWIxNDUwZgk3YjRmZWNhMjU1ZTBkOTY2M2UyNjZmMTk3MGRkZTNlNzM3MmMxMGVhMDJhYzViMGYwMmI2MzZiYmVhN2UxNDk3CTE1NzkzNzUyNDY3NDgJYzM3NTM2MTA3ZDUyNWM5ODVmOGIwOTUxMWYzMzNlNzYyMmM0ZTQyNjk2MDQ0MGIyN2I2YTNmZTE0MTVlY2UzYg\u003d\u003d",
+    "N2I0ZmVjYTI1NWUwZDk2NjNlMjY2ZjE5NzBkZGUzZTczNzJjMTBlYTAyYWM1YjBmMDJiNjM2YmJlYTdlMTQ5Nwk1NjliNDQ0NThhYTQ0ZmNkZmYzYTUxY2FmMTAxYTZiMWY3M2MzODFlODQ0OGU1MjNmMjBiYTgzZmVkYWE2YTdlCTE1NzkzNzUzNzQxOTkJMjQ3OTJlODMyOTRlOTU1Yjk4OTM0NzVhODc3YTlhNmE5MzBkMTFiMWI4NTRjOWNiMmJjNzlmYTg1MWNiZDJlMQ\u003d\u003d",
+    "NTY5YjQ0NDU4YWE0NGZjZGZmM2E1MWNhZjEwMWE2YjFmNzNjMzgxZTg0NDhlNTIzZjIwYmE4M2ZlZGFhNmE3ZQkwOWExYzE3ZTE4MDM1M2ViNmFiMDhiM2JmYjJhM2M4OWRlYmRkZGU3NDhiMThjMTcxOTY0NGM4YTBmZmYxMmE2CTE1NzkzNzUzODkzNDUJNjBiODRkMzZhOWI4NTE1NmE1Y2YwOTg3MGU0OTVhZmY4ZTM4MzIwYTAzY2M3MWMxNTZkNGYxMmE4OGYwNmFhYw\u003d\u003d",
+    "MDlhMWMxN2UxODAzNTNlYjZhYjA4YjNiZmIyYTNjODlkZWJkZGRlNzQ4YjE4YzE3MTk2NDRjOGEwZmZmMTJhNgk2OTVjMDI2NzA2YWZkNTA0OGJjZTkwOWI4M2QxZjk0NDZkZmJhYzc2M2VlYzI5OTMxM2ViODk2ZWI2ODAyYmQ4CTE1Nzk0NTUyMTE0NjEJYjYxZDNhZmQ2NWI3NTE2OWViNjg0YTc3NWE4MDk3NTRlYWMxM2Q1NTNkNDM2ZmY2NDUyNDFiYmExNjVlNDE4ZA\u003d\u003d",
+    "Njk1YzAyNjcwNmFmZDUwNDhiY2U5MDliODNkMWY5NDQ2ZGZiYWM3NjNlZWMyOTkzMTNlYjg5NmViNjgwMmJkOAkzNzk3YzgwOTgzZmM1NWQ2MDRjMTY3NTk0Y2IxMDVkNTc2OWU2YWU5NjQxM2ZjZmE2NTgyYzcyMTc2YjIzNTQ2CTE1Nzk0NTUyMTYwOTIJYjYxZDNhZmQ2NWI3NTE2OWViNjg0YTc3NWE4MDk3NTRlYWMxM2Q1NTNkNDM2ZmY2NDUyNDFiYmExNjVlNDE4ZA\u003d\u003d",
+    "Mzc5N2M4MDk4M2ZjNTVkNjA0YzE2NzU5NGNiMTA1ZDU3NjllNmFlOTY0MTNmY2ZhNjU4MmM3MjE3NmIyMzU0NglhMzhjMDc1MzAzNzZiN2I3YTBhYjg4MzI1OWYxYTIxNDU3ODUzNzBlNThhYTJkNzQ1NjJkODU1OGZmMzc2YTJjCTE2MzExMzgxNzU1OTgJMWJiMjJhOWI2YjI1NmQ5MmUwZWVhZWQ3NmVkYWQyNTNjOTRmZGY3YjQ4NGFkNDkyZGI4ZTlkYmUxNTU1ZDZkYw\u003d\u003d"
+  ]
+}

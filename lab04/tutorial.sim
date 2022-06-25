@@ -1,0 +1,159 @@
+{
+  "version": "1.8.2 2110 version",
+  "globalBitSize": 1,
+  "clockSpeed": 1,
+  "circuits": [
+    {
+      "name": "Tutorial 2",
+      "components": [
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.gates.AndGatePeer",
+          "x": 41,
+          "y": 18,
+          "properties": {
+            "Negate 1": "No",
+            "Label location": "NORTH",
+            "Negate 0": "No",
+            "Number of Inputs": "2",
+            "Label": "",
+            "Direction": "EAST",
+            "Bitsize": "1"
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.gates.OrGatePeer",
+          "x": 50,
+          "y": 9,
+          "properties": {
+            "Negate 1": "No",
+            "Label location": "NORTH",
+            "Negate 0": "No",
+            "Number of Inputs": "2",
+            "Label": "",
+            "Direction": "EAST",
+            "Bitsize": "1"
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.PinPeer",
+          "x": 13,
+          "y": 16,
+          "properties": {
+            "Label location": "WEST",
+            "Label": "in",
+            "Is input?": "Yes",
+            "Direction": "EAST",
+            "Bitsize": "3"
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.PinPeer",
+          "x": 62,
+          "y": 16,
+          "properties": {
+            "Label location": "EAST",
+            "Label": "out",
+            "Is input?": "No",
+            "Direction": "WEST",
+            "Bitsize": "1"
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.SplitterPeer",
+          "x": 16,
+          "y": 17,
+          "properties": {
+            "Label location": "NORTH",
+            "Fanouts": "3",
+            "Input location": "Left/Top",
+            "Label": "",
+            "Bit 2": "2",
+            "Direction": "EAST",
+            "Bit 1": "1",
+            "Bitsize": "3",
+            "Bit 0": "0"
+          }
+        }
+      ],
+      "wires": [
+        {
+          "x": 18,
+          "y": 19,
+          "length": 15,
+          "isHorizontal": true
+        },
+        {
+          "x": 18,
+          "y": 20,
+          "length": 18,
+          "isHorizontal": true
+        },
+        {
+          "x": 18,
+          "y": 21,
+          "length": 23,
+          "isHorizontal": true
+        },
+        {
+          "x": 33,
+          "y": 10,
+          "length": 9,
+          "isHorizontal": false
+        },
+        {
+          "x": 33,
+          "y": 10,
+          "length": 17,
+          "isHorizontal": true
+        },
+        {
+          "x": 36,
+          "y": 19,
+          "length": 1,
+          "isHorizontal": false
+        },
+        {
+          "x": 36,
+          "y": 19,
+          "length": 5,
+          "isHorizontal": true
+        },
+        {
+          "x": 45,
+          "y": 20,
+          "length": 5,
+          "isHorizontal": true
+        },
+        {
+          "x": 50,
+          "y": 12,
+          "length": 8,
+          "isHorizontal": false
+        },
+        {
+          "x": 54,
+          "y": 11,
+          "length": 8,
+          "isHorizontal": true
+        },
+        {
+          "x": 62,
+          "y": 11,
+          "length": 6,
+          "isHorizontal": false
+        }
+      ]
+    }
+  ],
+  "revisionSignatures": [
+    "CWE0NmUzMmM4NzJiZTRmNjBmMmM5NzZiMGE5OGQyMGUyZDNlYTExZjZjMjljMjE3NDM3Y2ZjN2NhZGI1MmE0ZWUJMTU2NjQ0NDIzNTYyMAliNTQzZDY0NTE1Y2U1YzE4M2JhNjU4MmRmNmJiOWEzMTQ2MWYyNzNmOWFiZGQ4NzZkYjVmYWYwNGZhODY1ZWYx",
+    "YTQ2ZTMyYzg3MmJlNGY2MGYyYzk3NmIwYTk4ZDIwZTJkM2VhMTFmNmMyOWMyMTc0MzdjZmM3Y2FkYjUyYTRlZQk4NWFhZmE5N2ZmOWRjZDk4NjdhMzgyMmM3Y2FkNzI4MzcyY2EyOTk3MGYwMWFmZjFhZGMxYzMzZTg2OThjZTY2CTE1NjY0NDQyNTk2MzMJMGY4MDk1YzE4YjkzNWQzZjU3MmEyZDQ3NDE5YTc0NjQwNDY3MzMxZTUxMTdkYmRmNjFmZTNkYjlmN2YyZDc4Yg\u003d\u003d",
+    "ODVhYWZhOTdmZjlkY2Q5ODY3YTM4MjJjN2NhZDcyODM3MmNhMjk5NzBmMDFhZmYxYWRjMWMzM2U4Njk4Y2U2NgljN2IyNTgzMzMwNWI0YjJjNzNiMTU0ZTExNmUzYzNkMjNjMmY5NGJiYWY2YzEyYjYwMzYxYTVmMTc0YzFmZGNiCTE1NjY1ODE5NDQ0NzgJMGM0NWVjMzZkNTI4ZjQzM2U5MjUzY2NhODI3MzU3ZDQzYjM5MzFmMTdlZTJmOWQ3YjAwNTYxMTFhZjgzY2RjYg\u003d\u003d",
+    "YzdiMjU4MzMzMDViNGIyYzczYjE1NGUxMTZlM2MzZDIzYzJmOTRiYmFmNmMxMmI2MDM2MWE1ZjE3NGMxZmRjYgk1MTE1YWY4ZGM0YTdiZGRjNjMzZGM3MmRkYTNkYmI5NjQ2NDBjYWE0M2Y3NzEyNjY2MjI2NjViMTQzOWE5ZDUzCTE1NjY1ODIwNTI0ODcJMjRmYmQxZjRiODA0Mzg2MGZhOWZhOWU4YWQxMmU5NjAxZWZmZmViNWRjMTM4ODhmYTlhZTQ2MjFkODdiMzEwMw\u003d\u003d",
+    "NTExNWFmOGRjNGE3YmRkYzYzM2RjNzJkZGEzZGJiOTY0NjQwY2FhNDNmNzcxMjY2NjIyNjY1YjE0MzlhOWQ1MwkwY2JmZmY4ODM5MzYxOTNlOWU3YzRkZTEyZmI2MjQzNTQzM2QzYWY0OWMyNmZkNTYxMmYyZjRjOWFiZGYyNGUxCTE1NjY1ODIxMzI2NTgJMjRmYmQxZjRiODA0Mzg2MGZhOWZhOWU4YWQxMmU5NjAxZWZmZmViNWRjMTM4ODhmYTlhZTQ2MjFkODdiMzEwMw\u003d\u003d",
+    "MGNiZmZmODgzOTM2MTkzZTllN2M0ZGUxMmZiNjI0MzU0MzNkM2FmNDljMjZmZDU2MTJmMmY0YzlhYmRmMjRlMQk0NzU0NGNjOGNiZGE1ZmE0OTlhMjEzYWE2NWUxZDVkZjcyMTZlYWQ1OTA3NDEyNzE4NThiNjBiMDU0MDMwOTRlCTE1NzkzNzQ3MTkzMTEJOWYyMzY3MGQ1NDlhY2Q0Njg0Nzg1YTVmMWNmODU2Yzg2MWFhOTEyMzk2YmUwY2JiOWVkMDEwNDJjMmRjMDM4Zg\u003d\u003d",
+    "NDc1NDRjYzhjYmRhNWZhNDk5YTIxM2FhNjVlMWQ1ZGY3MjE2ZWFkNTkwNzQxMjcxODU4YjYwYjA1NDAzMDk0ZQlkNWMyZjFmNjk1MmQzOWViNWJiYzRkNWY1OTNlYzUxNjI3NTgwNTk4ODdmZGY2ZmM0NGZiZjY4ZDJhZGIxZTFkCTE1NzkzNzQ4NDE5NzIJNGVhNjM5MmI5OTAxODQ2MmM5NGFkYjUwOWFjMjBhZGI3MjZhZWFhNTgwMDhlN2U3ODVlNGM1MzJjMTRkZTk4Nw\u003d\u003d",
+    "ZDVjMmYxZjY5NTJkMzllYjViYmM0ZDVmNTkzZWM1MTYyNzU4MDU5ODg3ZmRmNmZjNDRmYmY2OGQyYWRiMWUxZAkyMmI5NTYzMTJlMGQ5NWEwYzlkYTU5NDQzOGUwMDcwM2M1MGUxYWI5MTA3NmYwNDQ4NDk2MDJjMzM3N2RkMTEzCTE2MzExMzc4NTIyOTgJYmEyOTE2YmU4YzdiNTRhMDMzMjMxOGExN2VmMWYxM2M3NjRhMjRhYzkxZmU2YzRiY2QxMjMwZWJkNzQ4MTY0Nw\u003d\u003d",
+    "MjJiOTU2MzEyZTBkOTVhMGM5ZGE1OTQ0MzhlMDA3MDNjNTBlMWFiOTEwNzZmMDQ0ODQ5NjAyYzMzNzdkZDExMwk0YWEzMzJkODRjNGRjOTdhZThlMGRmY2UwOThmOWRlYjc0NzJiOGFhZTBmZTMzN2E3ODg5Y2NkM2UwNTE3ZGIyCTE2MzExMzg1MzI1MjgJZTgyYTVlM2MwMDExMTA0ODQ5NWMzZWZmN2IyOGZkZDFkYzE5ZDMyZjliY2QyMTFkYzcxMzI4NmMzMjI2NTNhZg\u003d\u003d"
+  ]
+}

@@ -1,0 +1,10 @@
+Starting Mednafen 1.22.2
+ Build information:
+   Compiled with gcc 9.3.0
+   Compiled against zlib 1.2.11, running with zlib 1.2.11(flags=0x000000a9)
+   Compiled against SDL 2.0.10(hg-12952:bc90ce38f1e2), running with SDL 2.0.10(hg-12952:bc90ce38f1e2)
+   Running with libsndfile-1.0.28
+ Base directory: /cs2110/.mednafen
+ Emulation modules: apple2 nes snes gb gba pce lynx md pcfx ngp psx ss ssfplay vb wswan sms gg snes_faust pce_fast demo cdplay
+ Opening lockfile...
+Multiple instances of Mednafen using the same base directory should not run simultaneously, otherwise settings file changes may be lost, along with other similar problems.  If you understand the risks, and want to anyway, run Mednafen with environment variable "MEDNAFEN_ALLOWMULTI" set to "1" to bypass this check.
